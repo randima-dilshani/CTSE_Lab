@@ -4,6 +4,7 @@ class Recipe {
   String? description;
   List<String>? ingredients;
 
+
   Recipe({this.id, this.title, this.description, this.ingredients});
 
   Recipe.fromJson(Map<String, dynamic> json) {
